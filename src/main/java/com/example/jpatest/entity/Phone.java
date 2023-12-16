@@ -7,7 +7,6 @@ import lombok.Getter;
 @Entity
 @Getter
 public class Phone {
-
     @Id
     @Column(name = "phone_id")
     private int phoneId;
